@@ -1,0 +1,25 @@
+services:
+  - type: worker
+    name: sholootgfiletolink
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    repo: https://github.com/sholoomail/TG-FileStreamBot.git
+    branch: main
+    envVars:
+      - key: token 
+        sync: false
+      - key: api_id 
+        sync: false
+      - key: api_hash 
+        sync: false
+      - key: SESSION_NAME 
+        value: sholootgfiletolink
+      - key: DOWNLOAD_LOCATION 
+        value: ./DOWNLOADS
+      - key: channel_files_chat_id 
+        sync: false
+      - key: channel_username 
+        sync: false
+      - key: domain 
+        sync: false

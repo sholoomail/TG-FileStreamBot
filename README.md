@@ -65,6 +65,11 @@ The main working part was taken from [Megatron](https://github.com/eyaadh/megadl
 
 Either you could locally host or deploy on ~~[Heroku](https://heroku.com)~~ Free tier is dead.
 
+
+### Deploy To Render (Paid)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?)
+
 ### Deploy on Heroku
 
 Press the below button to fast deploy to Heroku
